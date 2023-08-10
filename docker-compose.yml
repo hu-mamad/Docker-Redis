@@ -12,3 +12,7 @@ services:
 
 volumes:
   redis_data:
+
+networks:
+  Ho:
+    external: true
